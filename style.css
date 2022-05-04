@@ -1,0 +1,1230 @@
+/*FONT STYLING*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap");
+
+html{
+  scroll-behavior:smooth;
+  font-size:100%;
+}
+body{
+  background-color: #F5EBE5;
+}
+
+
+/*********NAV BAR STYLING*********/
+
+.top-nav,
+.header,
+.navbar,
+.nav-link, 
+.nav-item,
+.nav-menu,
+.hamburger,
+.bar,
+.nav-logo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.nav-header{
+  display:block;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1.5rem 2rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 4rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1D2E15;
+  font-family:'Josefin Sans';
+}
+
+.nav-link:hover{
+    color: #9CB5A1;
+}
+
+.nav-logo {
+    font-size: 1.563rem;
+    font-weight: 400;
+    color: #1D2E15;
+  font-family:'Josefin Sans';
+  text-transform:uppercase;
+}
+
+/********END NAV STYLING*******/
+
+h1,
+a,
+h2,
+header p {
+  margin-bottom: 8px;
+}
+
+.abf-header{
+  padding-top:160px;
+}
+h1{
+   font-family: "Josefin Sans";
+  font-size:3.815rem;
+  color: #596846;
+  font-weight: 300;
+}
+
+.celebrateearthday{
+   font-family: "Source Serif Pro";
+  font-weight: 100;
+  font-size: 1.953rem;
+  color: #1d2e15;
+  padding-top:20px;
+}
+
+.unlocksales{
+  box-shadow: 0px 5px 19px -4px #353834;
+  background-color: #1d2e15;
+  border: 1px solid #1d2e15;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 1.953rem;
+  font-weight: 300;
+  padding:1.5rem 3.5rem;
+  text-decoration: none;
+  margin-top: 30px;
+  flex-basis:fit-content;
+}
+.abf-wrapper {
+  padding: 8px 20px 100px 10px;
+  background-color:#F5EBE5;
+   background-image: url("https://res.cloudinary.com/df3pgjkle/image/upload/v1650814674/Untitled_Artwork_152_1_moncag.png");
+  background-repeat: no-repeat;
+  background-position: 85% 70%;
+  background-size:35%;
+}
+/*END OF ABOVE THE FOLD STYLING*/
+
+
+
+/*EMAIL SIGN UP STYLING*/
+
+.emailsignup-wrapper{
+  background-color: #596846;
+padding-bottom:10px;
+}
+
+.couponsheading {
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding-top: 45px;
+  text-align:center;
+}
+
+.couponscaption {
+  font-family: "Source Serif Pro";
+  font-size: 1.953rem;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 35px;
+  line-height: 1.2;
+}
+.italic{
+  font-style:italic;
+}
+
+/*STYLING FOR FLEXPARENT SIGNUP*/
+.buttonflexparent {
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    align-items: baseline;
+  margin: 3rem 0;
+}
+.name-item,
+.email-item,
+.button-item{
+  padding:2rem;
+  flex-grow:2;
+}
+
+/*STYLING FOR NAME AND EMAIL SIGN UP*/
+.name,
+.email {
+  background-color: white;
+  color: #607d8b;
+  text-align: left;
+  border: 1px solid #1d2e15;
+  font-family: "Josefin Sans";
+  font-size: 1.953rem;
+  font-weight: 300;
+  padding: 1.5rem 3.5rem;
+}
+
+/*STYLING FOR UNLOCK SALES BUTTON*/
+.mybutton-unlock{
+  box-shadow: 0px 5px 19px -4px #353834;
+  border: 1px solid #1d2e15;
+  color: white;
+  background-color: #1d2e15;
+  cursor: pointer;
+  font-family: "Josefin Sans";
+  font-size: 1.953rem;
+  font-weight: 300;
+  text-decoration: none;
+  padding:1.5rem 4.5rem;
+  text-align:center;
+  white-space:nowrap;
+}
+
+/*END OF EMAIL SIGN UP STYLING*/
+
+
+/*WHY BE SUSTAINABLE SECTION STYLING*/
+
+.solutions-wrapper {
+  /* temp styles */
+  background-color:#f5ebe5;
+  padding-bottom:120px;
+  padding-top:80px;
+}
+.flexparent-sustainability{
+    display: flex;
+  flex-direction:row;
+  align-items:baseline;
+  padding:0;
+  gap:8%;
+
+}
+
+.whysustainable {
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  font-size: 4.768rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: #1d2e15;
+}
+
+.sustainabilitycaption {
+  font-size: 1.563rem;
+  text-align: center;
+  color: #1d2e15;
+  padding-bottom:50px;
+}
+.energysection,
+.pollutionsection,
+.plasticsection{
+  padding:0;
+}
+.pollution-image,
+.energy-image,
+.plastic-image{
+  width:100%;
+}
+
+.decreasepollution,
+.reducemicroplastics,
+.preserveenergy {
+    font-family: "Josefin Sans";
+    color: #1d2e15;
+    font-size: 1.563rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.decreasepollutionparagraph,
+.reducemicroplasticsparagraph,
+.preserveenergycaption {
+  color: #22480f;
+  font-size: 1rem;
+  line-height:1.2;
+}
+
+.bold{
+  font-weight:bold;
+}
+.intext-link{
+  color:#F5EBE5;
+  text-decoration:underline;
+}
+/*END OF WHY BE SUSAINABLE SECTION*/
+
+
+/*****OPENING VERSUS HEADINGS*******/
+
+.HMandtentree-wrapper{
+   background:linear-gradient(
+   to right,
+   #763531 0%,
+   #763531 50%,
+   #596846 50%,
+   #596846 100%);
+  padding-top:0px;
+  padding-bottom:150px;
+}
+
+.sheinvsfordays-wrapper{
+    background:linear-gradient(
+   to right,
+   #45494D 0%,
+   #45494D 50%,
+   #CC8080 50%,
+   #CC8080 100%);
+  padding-top:0px;
+  padding-bottom:150px;
+}
+.zaravsknownsupply-wrapper{
+   background:linear-gradient(
+   to right,
+   #0F2038 0%,
+   #0F2038 50%,
+   #E07B42 50%,
+   #E07B42 100%);
+  padding-top:0px;
+  padding-bottom:100px;
+}
+.HMandtentree-flex,
+.SHEINandfordays-flex,
+.ZARAandknownsupply-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0;
+    flex-wrap: nowrap;
+    gap:2%;
+}
+
+.HM,
+.Tentree,
+.SHEIN,
+.fordays,
+.ZARA,
+.knownsupply{
+    font-size: 5.96rem;
+    font-family: "Josefin Sans";
+    color: #FFFFFF;
+  font-weight:400;
+  text-align:center;
+  padding-top:200px;
+}
+.fordays,
+.knownsupply{
+  white-space:nowrap;
+}
+
+
+.knownsupply{
+  font-size:4.5rem;
+}
+
+
+.HMheadingandparagraph,
+.tentreeheadingandparagraph,
+.sheinheadingandparagraph,
+.fordaysheadingandparagraph,
+.zaraheading-and-paragraph,
+.knownsupplyheading-and-paragraph{
+  padding:0;
+}
+
+.HM-introparagraph,
+.tentree-introparagraph,
+.shein-introparagraph,
+.fordays-introparagraph,
+.zara-introparagraph,
+.knownsupply-introparagraph{
+  font-family:'Source Serif Pro';
+  font-size:1.25rem;
+  font-weight:200;
+  text-align:center;
+  color:#FFFFFF;
+  line-height:1.2;
+  padding-top:20px;
+}
+.versus1,
+.versus2,
+.versus3{
+  padding:0;
+}
+.vs1,
+.vs2,
+.vs3{
+  z-index:1;
+    font-size:2rem;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    color: #FFFFFF;
+  text-align:center;
+  text-transform:uppercase;
+}
+.vs1{
+  margin:0 1rem 0 0;
+}
+.vs2{
+  margin:0 0 0 3rem;
+}
+.vs3{
+  margin:0 1rem 0 0;
+}
+
+
+
+
+
+
+
+/*END OF HM VERSUS TENTREE STYLING*/
+
+/*****END VERSUS HEADINGS STYLING*******/
+
+/*ENVIRONMENTAL IMPACT and PRICE RANGE DIVIDER STYLING*/
+.environmentalimpact1-wrapper, 
+.pricerange1-wrapper{
+  background-color:#F5EBE5;
+  padding-top:8rem;
+  padding-bottom:0;
+}
+.environmentalimpact1,
+.environmentalimpact2,
+.environmentalimpact3{
+ color: #763531;
+  font-size: 3.052rem;
+  text-align: center;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.environmentalimpact2{
+  color:#45494D;
+}
+.environmentalimpact3{
+  color:#0F2038;
+}
+
+.pricerange1,
+.pricerange2,
+.pricerange3{
+  color: #596846;
+  font-size: 3.052rem;
+  text-align: center;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding:1rem 2rem;
+}
+.pricerange2{
+  color:#CC8080;
+}
+.pricerange3{
+  color:#E07B42;
+}
+
+/*END OF ENVIRONMENTAL IMPACT and PRICE RANGE DIVIDER STYLING*/
+
+
+/*HANGER AND PRICETAG DIVIDER STYLING*/
+.hanger1,
+.pricetag{
+  margin-bottom:8px;
+}
+
+/***END HANGER DIVIDER STYLING****/
+
+
+/*******HM, SHEIN, ZARA WRAPPERS******/
+.HMenvironment-wrapper,
+.HMpricerange-wrapper,
+.sheinenvironment-wrapper,
+.sheinpricerange-wrapper,
+.zaraenvironment-wrapper,
+.zarapricerange-wrapper{
+    background-color: #F5EBE5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.HMenvironment-section,
+.HMpricerange-section,
+.sheinenvironment-section,
+.sheinpricerange-section,
+.zaraenvironment-section,
+.zarapricerange-section{
+    background-image: url(https://res.cloudinary.com/df3pgjkle/image/upload/v1649645365/Group_23_10_leuiqb.png);
+    background-repeat: no-repeat;
+    padding-top: 305px;
+    padding-bottom: 130px;
+    background-size: auto 100%;
+    background-position: 45% 0%;
+}
+
+.HMpricerange-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018256/Group_26_2_tg7bna.png");
+}
+.sheinenvironment-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018465/Group_27_3_ltmx3a.png");
+}
+
+.sheinpricerange-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018474/Group_27_5_s3jj1p.png");
+}
+
+.zaraenvironment-section{
+   background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018913/Group_19_ipythu.png");
+}
+
+.zarapricerange-section{
+background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018918/Group_21_tumhcu.png");
+}
+
+/********END HM,ZARA,SHEIN STYLING*********/
+.HMheading,
+.sheinheading,
+.zaraheading{
+    font-size: 3.815rem;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    color: #ffdcdc;
+}
+.HMparagraph1,
+.HMparagraph2,
+.sheinparagraph1,
+.sheinparagraph2,
+.zaraparagraph1,
+.zaraparagraph2{
+  padding-top: 30px;
+  font-size: 1.25rem;
+  color: #e3d8d2;
+  line-height:1.2;
+  font-weight:200;
+  font-family:'Source Serif Pro';
+}
+
+/********END OF HM ZARA SHEIN STYLING********/
+
+
+.tentreeenvironment-wrapper,
+.tentreepricerange-wrapper,
+.fordaysenvironment-wrapper,
+.fordayspricerange-wrapper,
+.knownsupplyenvironment-wrapper,
+.knownsupplypricerange-wrapper{
+    background-color: #F5EBE5;
+    padding-top: 0px;
+    padding-bottom: 26px;
+}
+.knownsupplypricerange-wrapper{
+  padding-bottom:150px;
+}
+.tentreeenvironment-section,
+.tentreepricerange-section,
+.fordaysenvironment-section,
+.fordayspricerange-section,
+.knownsupplyenvironment-section,
+.knownsupplypricerange-section{
+    background-color: #F5EBE5;
+    background-image: url(https://res.cloudinary.com/df3pgjkle/image/upload/v1651017024/Group_26_1_rqmxc1.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 45% 0%;
+    padding-bottom: 130px;
+    padding-top: 105px;
+}
+.tentreepricerange-section,
+.fordayspricerange-section,
+.knownsupplypricerange-section{
+  padding-bottom: 80px;
+  padding-top: 160px;
+}
+
+.tentreepricerange-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018260/Group_26_3_v5zlzi.png");
+}
+
+.fordaysenvironment-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018470/Group_27_4_jbyseo.png");
+}
+.fordayspricerange-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018477/Group_23_15_wfoae5.png");
+}
+
+.knownsupplyenvironment-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018915/Group_27_6_rwpeyo.png");
+}
+
+.knownsupplypricerange-section{
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1651018920/Group_27_7_yqr7zi.png");
+}
+
+.tentreeheading,
+.knownsupplyheading,
+.fordaysheading{
+   font-size: 3.815rem;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  color: #ffdcdc;
+  padding-top:200px;
+}
+
+.tentreeparagraph1,
+.tentreeparagraph2,
+.fordaysparagraph1,
+.fordaysparagraph2,
+.knownsupplyparagraph1,
+.knownsupplyparagraph2{
+  font-size: 1.25rem;
+  color: #e3d8d2;
+  line-height:1.2;
+  padding-top: 20px;
+  font-family:"Source Serif Pro";
+  font-weight:200;
+}
+.tentreeparagraph2,
+.HMparagraph2,
+.zaraparagraph2,
+.sheinparagraph2,
+.fordaysparagraph2,
+.knownsupplyparagraph2{
+  padding-top:10px;
+}
+
+.shopbutton {
+  z-index: 1;
+  box-shadow: 0px #353834;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 1.563rem;
+  font-weight: 300;
+  padding: 20px 40px 15px 40px;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-left: 560px;
+}
+
+/*STYLING QUOTE AND FACT DIVIDER*/
+.divider-wrapper {
+  background-color: #F5EBE5;
+  padding-top:100px;
+  padding-bottom:200px;
+}
+.embroidery{
+  align-items:center;
+}
+
+/*EMMA WATSON QUOTE*/
+.emmaquote,
+.factparagraph{
+  color: #596846;
+  font-family: "Source Serif Pro";
+  font-size: 3.815rem;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 40px;
+}
+.emmaname,
+.fact{
+  color: #596846;
+  font-family: "Source Serif Pro";
+  font-size: 3.052rem;
+  padding-top: 40px;
+  font-weight: 600;
+  text-align:center;
+  line-height:1.2;
+}
+.fact{
+  text-transform:uppercase;
+  font-size:3.815rem;
+  padding:25px 0 0 0;
+}
+/*END OF DIVIDER STYLING*/
+
+
+.footer-wrapper {
+  background-color: #F5EBE5;
+}
+
+.footer-flexparent{
+  display:flex;
+  flex-direction:row;
+ padding-top:1rem;
+  padding-bottom:1rem;
+  align-items:baseline;
+  padding:0;
+}
+
+.Sources,
+.link1-container,
+.link2-container,
+.link3-container{
+  padding:0 0 0 3rem;
+  font-family:"Source Serif Pro";
+  font-weight:300;
+  color:#1D2E15;
+}
+.links,
+.photos,
+.earthday-footer{
+  font-size:1.5rem;
+  font-family:"Josefin Sans";
+  font-weight:600;
+  padding-bottom:1rem;
+  text-transform:uppercase;
+  white-sapce:nowrap;
+}
+ .linkstyle{
+   color:#1D2E15;
+   font-size:1.25rem;
+   text-decoration:underline;
+  }
+.address{
+  font-size:1.25rem;
+}
+
+div 
+{
+  padding: 5em; /* your figma file uses 8px as a base measure */
+}
+
+nav,
+header,
+section,
+footer {
+  min-width: 320px;
+  max-width: 1125px; /* replace this value with the widh of your 12 col design*/
+  margin: 0 auto; /*centers main elements in parent*/
+  display: flex; /* creates auto columns*/
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between; /* distribute available space between elements*/
+
+  /* temp styles */
+}
+
+
+
+
+/********MEDIA QUERIES******/
+
+  @media only screen and (max-width: 1140px) {
+       html{
+  font-size:80%;
+}
+  
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #F5EBE5;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+  .nav-logo{
+    font-size:2rem;
+    text-transform:uppercase;
+  }
+    .nav-link{
+      font-size:1.953rem;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px){
+  html{
+  font-size:65%;
+}
+  
+  } 
+
+
+/********************************************/
+@media only screen and (max-width: 375px) {
+  
+  html{
+  font-size:50%;  
+}
+  .nav-header{
+    padding-bottom:5rem;
+  }
+  .nav-logo{
+    font-size:3.052rem;
+  }
+ 
+  /**************MOBILE ABOVE THE FOLD STYLING**************/
+  .abf-wrapper{
+    background-position:80% 100%;
+    background-size:70%;
+  }
+  .abf-header{
+    padding-bottom:150px;
+    padding-top:10px;
+  }
+  .celebrateearthday{
+   padding:1rem 0 0 0;
+  }
+  .unlocksales{
+    margin-top:1rem;
+  }
+
+  /************END ABOVE THE FOLD STYLING***************/
+  
+  
+  
+  /***********MOBILE SIGN UP FOR COUPONS STYLING************/
+  
+  .emailsignup-wrapper{
+    padding-bottom:50px;
+  }
+  
+  .couponsheading,
+  .couponscaption{
+    text-align:left;
+  }
+  
+ .couponscaption{
+   padding:1rem 3rem 1rem 0;
+  }
+  
+  .buttonflexparent{
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items:left;
+    flex:100%;
+  }
+  
+  .email-item,
+  .name-item{
+    padding:0 5rem 4rem 0;
+  }
+  .button-item{
+    padding:2rem 2rem 2rem 0;
+  }
+  .email,
+  .name{
+    padding:1.5rem 29rem 1rem 1rem;
+    font-size:1.953rem;
+  }
+  .mybutton-unlock{
+    padding:1.5rem 11rem;
+    font-size:2.441rem;
+  }
+  /*END MOBILE SIGN UP FOR COUPONS STYLING*/
+  
+  .whysustainable{
+    font-size:3.052rem;
+    padding:1.5rem 1.5rem 0.6rem 0;
+  } 
+  .sustainabilitycaption{
+    font-size:1.953rem;
+    padding:1.5rem 1.5rem 5rem 0;
+  }
+  .flexparent-sustainability{
+    flex-direction:column;
+  }
+  .preserveenergy,
+  .reducemicroplastics,
+  .decreasepollution{
+    font-size:3.052rem;
+    text-align:center;
+    padding:1.5rem 1.5rem 0 0;
+  }
+  .decreasepollutionparagraph,
+  .reducemicroplasticsparagraph,
+  .preserveenergycaption{
+    font-size:1.953rem;
+    text-align:center;
+    padding:0.5rem 2rem 0 0;
+  }
+ 
+  /**********MOBILE VERSUS HEADINGS***********/
+
+.HMandtentree-flex,
+.SHEINandfordays-flex,
+.ZARAandknownsupply-flex{
+    flex-direction: column;
+    align-items: center;
+}
+ .HMandtentree-wrapper,
+ .sheinvsfordays-wrapper,
+ .zaravsknownsupply-wrapper{
+    padding:0;
+    background:none;
+  }
+  
+.HMandtentree-header,
+.sheinandfordays-header,
+.zaravsfordays-header{
+    padding:0;
+  } 
+  
+  /*************HM AND TENTREE VERSUS HEADER**************/
+  .HMheadingandparagraph{
+   background-color: #763531;
+  }
+   .HM-introparagraph{
+   padding: 1rem 6rem 5rem 6rem; 
+    font-size:1.953rem;
+  }
+   .tentree-introparagraph{
+    padding: 1rem 6rem 10rem 6rem;
+    font-size:1.953rem;
+  }
+    .tentreeheadingandparagraph{
+    background-color:#596846;
+  }
+  
+  .HM{
+    padding: 15rem 2rem 1rem 2rem;
+  }
+  
+  .Tentree{
+    padding: 8rem 2rem 1rem 2rem;
+  }
+  
+  
+  /************SHEIN AND FOR DAYS VERSUS HEADING***********/
+
+ 
+  .SHEIN{
+    padding: 15rem 1rem 1rem 4rem;
+  }
+  .fordays{
+    padding: 8rem 6rem 1rem 2rem;
+  }
+  
+    .sheinheadingandparagraph{
+    background-color:#45494D;
+  }
+  
+  .shein-introparagraph{
+     padding: 1rem 2rem 10rem 6rem;
+    font-size:1.953rem;
+  }
+  
+    .fordaysheadingandparagraph{
+    background-color:#CC8080;
+  }
+  
+  .fordays-introparagraph{
+    padding: 1rem 5rem 10rem 2rem;
+    font-size:1.953rem;
+  }
+  
+  /*MOBILE ZARA AND KNOWN SUPPLY VERSUS HEADER STYLING*/
+.ZARA{
+    padding: 15rem 1rem 1rem 3rem;
+  }
+  .knownsupply{
+    padding: 8rem 5rem 2rem 7rem;
+  }
+  
+ .zaraheading-and-paragraph{
+    background-color:#0F2038;
+  }
+  
+  .zara-introparagraph{
+     padding: 1rem 4rem 10rem 6rem;
+    font-size:1.953rem;
+  }
+  
+  .knownsupplyheading-and-paragraph{
+    background-color:#E07B42;
+  }
+  
+  .knownsupply-introparagraph{
+    padding: 1rem 4rem 10rem 6rem;
+    font-size:1.953rem;
+  }
+
+ /*********MOVILE STYLING FOR VERSUS*********/ 
+  .vs1,
+  .vs2,
+  .vs3{
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-family:'Josefin Sans';
+    margin: 2rem 10rem;
+    padding: 2rem;
+    text-transform:uppercase;
+  }
+  
+  .versus1,
+  .versus2,
+  .versus3{
+    padding:0;
+    width:100%;
+    background: linear-gradient( 
+      to bottom, 
+      #763531 0%, 
+      #763531 50%, 
+      #596846 50%, 
+      #596846 100%); 
+  }
+  .versus2{
+    background: linear-gradient( 
+      to bottom, 
+      #45494D 0%, 
+      #45494D 50%, 
+      #CC8080 50%, 
+      #CC8080 100%); 
+  }
+  
+  .versus3{
+    background: linear-gradient( 
+      to bottom, 
+      #0F2038 0%, 
+      #0F2038 50%, 
+      #E07B42 50%, 
+      #E07B42 100%); 
+  }
+  
+  /*MOBILE ENVIRONMENT AND PRICE RANGE*/
+  
+  .HMenvironment-wrapper,
+  .tentreeenvironment-wrapper,
+  .HMpricerange-wrapper,
+  .tentreepricerange-wrapper,
+  .sheinenvironment-wrapper,
+  .sheinpricerange-wrapper,
+  .fordaysenvironment-wrapper,
+  .fordayspricerange-wrapper,
+  .zaraenvironment-wrapper,
+  .zarapricerange-wrapper,
+  .knownsupplyenvironment-wrapper,
+  .knownsupplypricerange-wrapper{
+    padding: 60px 0;
+  }
+  .HMenvironment-section,
+  .HMpricerange-section,
+  .sheinenvironment-section,
+  .sheinpricerange-section,
+  .zaraenvironment-section,
+  .zarapricerange-section{
+    padding-top: 200px;
+    background-position:20% 0%;
+    padding-bottom:80px;
+  }
+    .tentreeenvironment-section,
+  .tentreepricerange-section,
+    .fordaysenvironment-section,
+  .fordayspricerange-section,
+    .knownsupplyenvironment-section,
+  .knownsupplypricerange-section{
+    padding-top:15px;
+    background-position:80% 0%;
+  }
+      .fordaysenvironment-section,
+  .fordayspricerange-section,
+    .knownsupplyenvironment-section,
+  .knownsupplypricerange-section{
+    background-position:90% 0%;
+  }
+  .tentreepricerange-section,
+  .fordayspricerange-section,
+  .knownsupplypricerange-section{
+    padding-bottom: 5rem;
+  }
+  .tentreeenvironment-section,
+  .fordaysenvironment-section{
+    padding-bottom:80px;
+  }
+  .knownsupplyenvironment-section{
+    padding-bottom:100px;
+  }
+  
+  /*END MOBILE ENVIRONMENT AND PRICE RANGE SECTIONS STYLING*/
+  
+  
+  /*MOBILE PRICE TAG HEADING AND PARAGRAPHS STYLING*/
+  .HMheading,
+  .sheinheading,
+  .zaraheading{
+    margin: 0 40px;
+    font-size:4.768rem;
+  }
+  
+  .tentreeheading,
+  .fordaysheading,
+  .knownsupplyheading{
+    font-size:4.768rem;
+    white-space: nowrap;
+    margin: 0;
+    padding-left:13rem;
+  }
+  
+  .HMparagraph1,
+  .sheinparagraph1,
+  .zaraparagraph1{
+    padding: 2rem 15rem 0 5rem;
+    margin:0;
+    font-size:1.953rem;
+    }
+  
+  .HMparagraph1,
+  .sheinparagraph1{
+  padding: 2rem 13rem 0 5rem;
+  }
+  
+  .tentreeparagraph1,
+  .fordaysparagraph1,
+  .knownsupplyparagraph1{
+   font-size:1.953rem; 
+    margin:0;
+   padding: 2rem 3rem 0 13rem;
+  }
+  .HMparagraph2,
+  .sheinparagraph2,
+  .zaraparagraph2,
+  .tentreeparagraph2,
+  .fordaysparagraph2,
+  .knownsupplyparagraph2{
+    display:none;
+  }
+  .shopbutton{
+    margin: 3rem 12rem;
+    padding: 2rem;
+    flex-basis: fit-content;
+  }
+  .hanger1{
+    width:50%;
+    padding: 1rem 5rem 1rem 5rem;
+    margin:0;
+  }
+  .pricetag{
+     width:30%;
+    padding: 1rem 5rem 1rem 14rem;
+    margin:0;
+  }
+  .environmentalimpact1,
+  .environmentalimpact2,
+  .environmentalimpact3,
+  .pricerange1,
+  .pricerange2,
+  .pricerange3{
+    font-size:3rem;
+    white-space:nowrap;
+    padding: 0;
+    margin: 0;
+  }
+  .pricerange1,
+  .pricerange2,
+  .pricerange3{
+    padding:2rem 2rem 2rem  7rem;
+  }
+  .divider-wrapper{
+    padding:0 5rem;
+  }
+  .embroidery{
+    margin: 0;
+    padding: 0 12em 2rem 12rem;
+    width: 150px;
+  }
+  .fact,
+  .emmaquote{
+    padding:0;
+    font-size:2.441rem;
+  }
+  .factparagraph{
+    padding-top:2rem;
+    padding-bottom:10rem;
+    font-size:2.441rem;
+  }
+  .emmaname{
+    padding:2rem 1rem 10rem 1rem;
+    white-space:nowrap;
+    font-size:2.441rem;
+  }
+  .footer-flexparent{
+  display:flex;
+  flex-direction:column;
+ padding-top:1rem;
+  padding-bottom:1rem;
+  align-items:baseline;
+}
+  .Sources, 
+  .link1-container, 
+  .link2-container, 
+  .link3-container {
+    padding-bottom:2rem;
+  }
+  
+
+  
+  .six-unit, .four-unit {
+    flex-basis: 100%;
+  } 
+ 
+  
+  .six-unit-gap-r, .four-unit-gap-r{
+    margin:0;
+    margin-bottom: 8px;
+  }
+  br{
+    display:none;
+  }
+  
+  
+} /* end @media max-widh 400px */
