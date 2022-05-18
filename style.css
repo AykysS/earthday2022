@@ -965,6 +965,7 @@ LEFT GAP UNITS FOR 12 COLUMN GRID
 }
   .nav-header{
     padding-bottom:5rem;
+    padding-top: 3rem;
   }
   .nav-logo{
     font-size:3.052rem;
